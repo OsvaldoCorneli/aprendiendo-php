@@ -176,4 +176,4 @@ echo "<br>";
 echo sprintf($formato, $dia, $mes, $anio);
 
 
-?>
+?>;
