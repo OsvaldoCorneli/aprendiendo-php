@@ -1,0 +1,9 @@
+<?php 
+
+//AQUI INICIAN EJERCICIOS DE LOGICA PHP
+echo "AQUI INICIAN EJERCICIOS DE LOGICA PHP";
+echo "<br>";
+echo "<br>";
+
+?>;
+

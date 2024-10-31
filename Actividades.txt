@@ -1,0 +1,60 @@
+Módulo 1: Introducción
+
+Investigación: Escribe un breve resumen (3-5 oraciones) sobre cómo ha evolucionado PHP desde su primera versión hasta la versión actual.
+
+Comparación: Investiga y compara el motor Zend y el JIT (Just In Time Compilation) en PHP. Explica en qué se diferencian y cómo afectan el rendimiento de PHP.
+
+
+Módulo 2: Configuración
+
+Instalación: Instala XAMPP y configura un servidor PHP básico en tu sistema. Luego, abre Visual Studio Code y crea un archivo index.php.
+
+Hola Mundo: Escribe un script PHP que imprima "¡Hola Mundo!" en el navegador. Asegúrate de ejecutarlo en tu servidor local.
+
+
+Módulo 3: Variables, Constantes y Tipos de Datos
+
+Variables y Constantes: Crea una variable con tu nombre y una constante con el valor de PI (3.1416). Imprime ambos valores en pantalla.
+
+Concatenación e Interpolación: Crea dos variables nombre y apellido y muestra un saludo utilizando tanto concatenación como interpolación.
+
+Manipulación de Cadenas: Escribe un script que encuentre y reemplace una palabra en una cadena dada y luego muestre el resultado. Usa Heredoc para definir la cadena original.
+
+
+Módulo 4: Operadores
+
+Operaciones Básicas: Declara dos variables numéricas y usa operadores aritméticos (+, -, *, /, %) para mostrar sus resultados.
+
+Operadores de Comparación y Lógicos: Define dos variables y usa operadores de comparación (>, <, ==, !=, etc.) y lógicos (&&, ||, !) para mostrar distintos resultados en pantalla.
+
+Operador Ternario: Escribe un script que evalúe si un número es par o impar usando el operador ternario.
+
+
+Módulo 5: Estructuras de Control
+
+Condicional If: Escribe un script que evalúe si una variable tiene un valor positivo, negativo o es cero, e imprime un mensaje correspondiente.
+
+Switch: Crea un menú donde el usuario ingrese un número del 1 al 3 y el script muestre mensajes diferentes usando switch.
+
+Ciclo For: Escribe un bucle for que imprima los números del 1 al 10. Haz lo mismo con un ciclo while y un do while.
+
+Foreach: Declara un arreglo con tus comidas favoritas y usa foreach para imprimir cada elemento.
+
+
+Módulo 6: Arreglos
+
+Arreglos Simples: Crea un arreglo con tus 5 películas favoritas y muestra cada una en pantalla.
+
+Arreglos Asociativos: Crea un arreglo asociativo donde las claves sean nombres de ciudades y los valores sean países. Muestra el país de una ciudad específica.
+
+Arreglos Multidimensionales: Define un arreglo multidimensional que contenga categorías de productos y algunos productos para cada categoría. Usa bucles para recorrer y mostrar todo el contenido.
+
+
+
+Módulo 7: Funciones
+
+Funciones Básicas: Escribe una función que reciba un nombre y devuelva un saludo personalizado.
+
+Parámetros y Return: Crea una función que reciba dos números como parámetros, los sume y devuelva el resultado.
+
+Funciones Anónimas: Define una función anónima que calcule el cuadrado de un número, y luego llama a esa función con un valor de prueba.

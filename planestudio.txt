@@ -1,0 +1,101 @@
+Módulo 1 - 6 clases -Introducción
+Clase 1
+Presentación del curso
+Clase 2
+Acerca de php
+Clase 3
+Cómo evolucionó PHP
+Clase 4
+Versiones de PHP
+Clase 5
+Motor Zend
+Clase 6
+JIT (Just In Time Compilation)
+
+Módulo 2 - 5 clases - Configuración
+Clase 1
+Xampp y Visual Studio Code
+Clase 2
+Instalación en Mac
+Clase 3
+Instalación Windows
+Clase 4
+Plugins
+Clase 5
+"Hola Mundo"
+
+Módulo 3 - 7 clases -Variables, Constantes y Tipos de Datos
+Clase 1
+Variables y Constantes
+Clase 2
+Conversiones de Tipo
+Clase 3
+Concatenación e Interpolación
+Clase 4
+Comillas Dobles y Simples
+Clase 5
+Heredoc y Nowdoc
+Clase 6
+Extraer y buscar palabras en un cadena v2
+Clase 7
+Remplazar y formato v2
+
+Módulo 4 - 8 clases - Operadores
+Clase 1
+Operadores
+Clase 2
+Operadores de comparación
+Clase 3
+Operadores Aritméticos
+Clase 4
+Operadores de Asignación
+Clase 5
+Operadores Lógicos
+Clase 6
+Operadores Incremento y Decremento
+Clase 7
+Operador Ternario, Elvis y fusion null
+Clase 8
+Precedencia de Operadores
+
+Módulo 5 - 7 clases - Estructuras de Control
+Clase 1
+If
+Clase 2
+Switch
+Clase 3
+Match v8
+Clase 4
+While
+Clase 5
+Do While
+Clase 6
+For
+Clase 7
+Foreach
+
+Módulo 6 - 6 clases - Arreglos
+Clase 1
+Arreglos v2
+Clase 2
+Arreglos Asociativos
+Clase 3
+Agregar, Eliminar y Modificar Datos en un Arreglo
+Clase 4
+Funciones en Arreglos
+Clase 5
+Arreglos Multidimencionales
+Clase 6
+Recorrer arreglo Multidimencional
+
+Módulo 7 - 5 clases - Funciones
+Clase 1
+Funciones
+Clase 2
+Parámetros y Argumentos
+Clase 3
+Return
+Clase 4
+Declaraciones de Tipo Escalar
+Clase 5
+Funciones Anónimas
