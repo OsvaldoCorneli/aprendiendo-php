@@ -40,7 +40,7 @@ echo $heredoc;
 $palabraBuscar = "imprimir";
 $palabraRemplazar = "mostrar";
 echo "<br>";
-$NuevaFrase = str_replace($palabraBuscar,$palabraRemplazar,$heredoc);
+$NuevaFrase = str_replace($palabraBuscar, $palabraRemplazar, $heredoc);
 
 echo $NuevaFrase;
 
@@ -48,7 +48,7 @@ echo "<br><br>";
 
 ?>
 
-<?php 
+<?php
 
 //MODULO 4
 echo "MODULO 4 <br>";
@@ -113,23 +113,146 @@ echo "$mensajeFinal<br>";
 
 $numeroParOImpar = 2;
 
-$esParOImpar = $numeroParOImpar % 2 == 0 ? "El numero es Par<br>":"El numero es Impar<br>";
+$esParOImpar = $numeroParOImpar % 2 == 0 ? "El numero es Par<br>" : "El numero es Impar<br>";
 
 echo "$esParOImpar<br>";
 
 $numeroParOImpar = 3;
 
-$esParOImpar = $numeroParOImpar % 2 == 0 ? "El numero es Par<br>":"El numero es Impar<br>";
+$esParOImpar = $numeroParOImpar % 2 == 0 ? "El numero es Par<br>" : "El numero es Impar<br>";
 
 echo "$esParOImpar<br>";
 ?>
 
 
-<?php 
+<?php
+//Modulo 5
+echo "<br> MODULO 5 <br><br>";
+// Módulo 5: Estructuras de Control
+
+// Condicional If: Escribe un script que evalúe si una variable 
+// tiene un valor positivo, negativo o es cero, e 
+// imprime un mensaje correspondiente.
+
+$NumeroEj1_5 = -5;
+
+if ($NumeroEj1_5 > 0) {
+    echo "El numero $NumeroEj1_5 es positivo<br>";
+} else if ($NumeroEj1_5 < 0) {
+    echo "El numero $NumeroEj1_5 es negativo<br>";
+} else {
+    echo "El numero es 0 <br>";
+}
+
+// Switch: Crea un menú donde el usuario ingrese un número del 
+// 1 al 3 y el script muestre mensajes diferentes usando switch.
+
+$numeroUsuario = 2;
+
+switch ($numeroUsuario) {
+    case 1:
+        echo "La opcion 1 es: Llamar";
+        break;
+    case 2:
+        echo "La opcion 2 es: Dejar un mensaje";
+        break;
+    case 3:
+        echo "La opcion 3 es: Eliminar el mensaje";
+        break;
+    default:
+        echo "El numero $numeroUsuario no corresponde a una opcion correcta";
+        break;
+}
+echo "<br>";
+
+// Ciclo For: Escribe un bucle for que imprima los números del 
+// 1 al 10. Haz lo mismo con un ciclo while y un do while.
+
+for ($i = 1; $i <= 10; $i++) {
+    echo "El numero es $i<br>";
+}
+
+$numeroWhile = 1;
+
+while ($numeroWhile <= 10) {
+    echo "El numero en el while es $numeroWhile <br>";
+    $numeroWhile++;
+};
+
+$numeroDoWhile = 1;
+
+do {
+    echo "El numero en el Do while es $numeroDoWhile <br>";
+    $numeroDoWhile++;
+} while ($numeroDoWhile <= 10);
 
 
 
 
+// Foreach: Declara un arreglo con tus comidas favoritas y usa 
+// foreach para imprimir cada elemento.
 
+$comidas = ["Empanada", "Milanesa", "Pizza", "Tamales"];
+
+foreach ($comidas as $comida) {
+    echo "Mi comida favorita es $comida<br>";
+};
+
+
+
+
+?>
+
+
+<?php
+
+// MODULO 6: Arreglos
+echo "<br> MODULO 6 <br><br>";
+// Arreglos Simples: Crea un arreglo con tus 5 películas
+//  favoritas y muestra cada una en pantalla.
+
+$peliculas = ["Matrix", "Titanic", "Back to future", "Scream", "Halloween"];
+
+
+foreach ($peliculas as $index => $pelicula) {
+    echo "la pelicula $pelicula se encuentra en el indice $index<br>";
+}
+
+
+// Arreglos Asociativos: Crea un arreglo asociativo donde 
+// las claves sean nombres de ciudades y los valores sean países.
+//  Muestra el país de una ciudad específica.
+
+$paises = [
+    "argentina" => "Buenos Aires",
+    "brasil" => "Rio de Janeiro",
+    "paraguay" => "Asuncion",
+    "chile" => "Santiago",
+    "bolivia" => "La paz",
+    "peru" => "Lima"
+];
+
+foreach ($paises as $pais => $ciudad) {
+
+    echo "La ciudad $ciudad pertenece al pais $pais<br>";
+};
+
+
+// Arreglos Multidimensionales: Define un arreglo 
+// multidimensional que contenga categorías de productos 
+// y algunos productos para cada categoría. Usa bucles 
+// para recorrer y mostrar todo el contenido.
+
+$productos = [
+    "limpieza" =>["detergente","trapo", "balde"],
+    "cocina" => ["Cuchillo", "horno", "olla"],
+    "banio"=>["papel", "toalla", "jabon"]
+];
+
+foreach($productos as $categoria => $producto){
+    foreach($producto as $elemento){
+        echo "El producto $elemento pertenece a la categoria $categoria<br>";
+    }
+}
 
 ?>

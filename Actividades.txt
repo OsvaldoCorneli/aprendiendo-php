@@ -2,6 +2,7 @@ Módulo 1: Introducción
 
 Investigación: Escribe un breve resumen (3-5 oraciones) sobre cómo ha evolucionado PHP desde su primera versión hasta la versión actual.
 
+
 Comparación: Investiga y compara el motor Zend y el JIT (Just In Time Compilation) en PHP. Explica en qué se diferencian y cómo afectan el rendimiento de PHP.
 
 
