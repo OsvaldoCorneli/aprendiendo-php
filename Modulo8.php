@@ -56,7 +56,15 @@ $persona->hablar("futbol");
 $persona2->hablar("programacion");
 
 
+//CLASE 6 GET Y SET
 
+$persona->setTelefono("2313823213");
+echo $persona->getTelefono();
+
+//CONSTRUCTOR Y DESTRUCTOR
+
+$persona3 = new Persona("Jose", "Perez");
+echo $persona3->apellido;
 
 
 ?>
