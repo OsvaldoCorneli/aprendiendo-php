@@ -256,3 +256,41 @@ foreach($productos as $categoria => $producto){
 }
 
 ?>
+
+
+<?php 
+// Módulo 7: Funciones
+echo "<br>MODULO 7 <br><br>";
+// Funciones Básicas: Escribe una función que reciba un 
+// nombre y devuelva un saludo personalizado.
+
+function saludo($nombre){
+    echo "Hola, mi nombre es $nombre<br>";
+}
+
+saludo("Osvaldo");
+saludo("Matias");
+
+
+// Parámetros y Return: Crea una función que reciba dos 
+// números como parámetros, los sume y devuelva el resultado.
+
+function suma($suma1,$suma2){
+    return $suma1+$suma2;
+}
+
+echo suma(2,4)."<br>";
+echo suma(8,54);
+
+// Funciones Anónimas: Define una función anónima que calcule 
+// el cuadrado de un número, y luego llama a esa función con un 
+// valor de prueba.
+
+$anonima = function ($numero){
+    return $numero**2;
+};
+
+echo "<br>".$anonima(3);
+
+
+?>
