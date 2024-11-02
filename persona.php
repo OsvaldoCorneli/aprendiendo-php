@@ -4,7 +4,7 @@ class Persona
 {
     public  $nombre;
     private $apellido;
-    public $edad;
+    public int|string $edad; //union de tipos
     private $telefono;
     //variable de la clase
     Static $idioma;

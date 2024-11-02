@@ -66,5 +66,57 @@ echo $persona->getTelefono();
 $persona3 = new Persona("Jose", "Perez");
 echo $persona3->apellido;
 
+//HERENCIA
+
+/*
+require_once("ruta");
+subclase extends clasepadre{
+
+} 
+con protected solamente tienen acceso las subclases y clase padre.
+
+*/
+
+
+// clases abstractas.
+
+/*
+abstract class nombreclase{
+
+}
+*/
+
+
+
+//TYPE HINTING
+
+ //determinacion de tipos, es poder enviar un argumento de tipo objeto
+
+//  function saludar(Empleado: $empleado){}  OBTIENE COMO ARGUMENTO UN OBJETO DE TIPO EMPLEADO
+
+
+//POLIMORFISMO.. 
+
+//SOBRECARGA de METODOS PHP NO LO PERMITE;
+
+//sobreescritura de metodos si se puede en php,
+
+//TRAIT - mecanismo de reutilizacion de codigo en lenguaje de herencia simple..
+// utilizando la palabra reservada use
+//clase nombredeclase use nombredelmetodo; 
+
+//CARGA AUTOMATICA:
+// mediante una clase podemos crear un autoimport que importe los archivos necesarios
+
+
+//clases anonimas
+// se guarda una clase en una variable
+
+$claseAnonima = new class{
+    public $nombre;
+    function saludar(){
+        
+    }
+}
 
 ?>
