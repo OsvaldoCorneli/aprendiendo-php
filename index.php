@@ -1,9 +1,11 @@
 <?php 
-require_once("usuario.php");
+require_once("modelo/usuario.php");
 
 $usuario = new Usuario(
     0,"Osvaldo","Corneli","1234567891234",34
 );
 
-$usuario->insertar();
+var_dump($usuario->consultarTodo());
+
+// $usuario->insertar();
 ?>

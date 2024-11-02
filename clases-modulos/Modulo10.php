@@ -1,0 +1,16 @@
+<?php 
+
+//REPASO
+// PROGRAMACION BASICA CON PHP
+//PARADIGMA DE PROGRAMACION POO
+//GUARDAR DATOS
+
+
+//PATRON ARQUITECTONICO - utilza frontend y backend
+
+ //MVVM - MVP - MVC
+
+ 
+
+
+?>
