@@ -1,11 +1,18 @@
 <?php 
-require_once("modelo/usuario.php");
+    if(!isset($_REQUEST["controlador"])){
+        require_once("controlador/usuario_controlador.php");
+        $controlador = new UsuarioControlador();
+        $controlador->indexUsuario();
+    }else{
+    $controlador = $_REQUEST["controlador"];
+    $accion = $_REQUEST["accion"];
+    require_once("controlador/$controlador"."_controlador.php");
 
-$usuario = new Usuario(
-    0,"Osvaldo","Corneli","1234567891234",34
-);
+    $controlador = ucwords($controlador)."Controlador";//colocar la primera letra en mayuscula
 
-var_dump($usuario->consultarTodo());
+    $controlador= new $controlador;
 
-// $usuario->insertar();
+    call_user_func([$controlador,$accion]);
+    }
+  
 ?>

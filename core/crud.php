@@ -34,7 +34,7 @@ class Crud extends Conexion{
 
     public function delete(int $id){
         try{
-            $stm = $this->pdo->prepare("DELETE * FROM $this->table WHERE id=?");
+            $stm = $this->pdo->prepare("DELETE FROM $this->table WHERE id=?");
             $stm->execute([$id]);
         }catch(PDOException $mensaje){
             echo $mensaje->getMessage();
