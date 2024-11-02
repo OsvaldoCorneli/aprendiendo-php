@@ -1,5 +1,9 @@
 <?php 
+require_once("usuario.php");
 
-print_r(PDO::getAvailableDrivers());
+$usuario = new Usuario(
+    0,"Osvaldo","Corneli","1234567891234",34
+);
 
+$usuario->insertar();
 ?>

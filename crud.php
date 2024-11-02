@@ -5,6 +5,7 @@ class Crud extends Conexion{
     public function __construct(
         public string $table
     ){ 
+        parent::__construct();
         $this->pdo = $this->conexion();
     }
 
@@ -42,14 +43,16 @@ class Crud extends Conexion{
 
 
     public function crear(string $columnas, string $marcadores,array $datos){
-        $stm = $this->pdo->prepare("INSERT INTO $this->table $columnas VALUES $marcadores");
+        $stm = $this->pdo->prepare("INSERT INTO $this->table ($columnas) VALUES ($marcadores)");
         $stm->execute($datos);
     }
 
-    public function modificar(string $columnas, string $marcadores,array $datos){
-        $stm = $this->pdo->prepare("UPDATE INTO $this->table $columnas");
+    public function modificar(string $columnas, array $datos){
+        $stm = $this->pdo->prepare("UPDATE $this->table SET $columnas WHERE id=?");
         $stm->execute($datos);
     }
+
+    
 
 }
 
